@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv);
 
     // fetch data from server -> AI's Response
-    const response = await fetch('http://localhost:5001',{
+    const response = await fetch('https://ask-ai-xa35.onrender.com',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
